@@ -1,11 +1,7 @@
 # Return Path Test
 
-## Part 1:
-
-Using the PHP [Google API client](https://developers.google.com/gmail/api/quickstart/php) installed with [composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx) I was able to get messages that contain keywords in the subject lines.  Keywords are set in an array in [run.php on line 19](run.php#L19).
-
-### Setup
-I've included composer so you should be able to continue to Run the app
+## Setup
+I've included composer so you should be able to continue to Run the app.  You will need composer and phpunit.  They can be installed following the commands below.
 
 ```sh
 # install composer
@@ -16,6 +12,10 @@ php composer-setup.php
 # install phpunit
 # https://phpunit.de/getting-started.html
 ```
+
+## Part 1:
+
+Using the PHP [Google API client](https://developers.google.com/gmail/api/quickstart/php) installed with [composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx) I was able to get messages that contain keywords in the subject lines.  Keywords are set in an array in [run.php on line 19](run.php#L19).
 
 ## Part 2:
 
