@@ -1,0 +1,9 @@
+{
+   "autoload": {
+    	"psr-0": {"": ["src/"]}
+    },
+    "require": {
+        "google/apiclient": "^2.0",
+        "phpunit/phpunit": "^5.6"
+    }
+}

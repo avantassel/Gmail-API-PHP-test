@@ -1,0 +1,6 @@
+.DS_Store
+vendor
+auth/*
+output/*
+composer-setup.php
+composer.phar
