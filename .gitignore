@@ -4,3 +4,4 @@ auth/*
 output/*
 composer-setup.php
 composer.phar
+composer.lock

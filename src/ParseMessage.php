@@ -1,8 +1,8 @@
 <?php
-define('APPLICATION_NAME', 'Return Path Test');
+define('APPLICATION_NAME', 'Gmail API Test');
 define('CREDENTIALS_PATH', __DIR__ . '/../auth/gmail-php-quickstart.json');
 define('CLIENT_SECRET_PATH', __DIR__ . '/../auth/client_secret.json');
-define('API_KEY', 'AIzaSyAWaSiBlb3CYBuwggtAfDogq2VmQN0UymA');
+define('API_KEY', '');//add your API KEY
 
 define('SCOPES', implode(' ', array(
   Google_Service_Gmail::GMAIL_READONLY)

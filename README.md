@@ -1,7 +1,9 @@
-# Return Path Test
+# Gmail API Test
+
+This is a Gmail API PHP test for parsing messages with certain subjects.
 
 ## Setup
-I've included composer so you should be able to continue to Run the app.  You will need composer and phpunit.  They can be installed following the commands below.
+You will need [composer](https://getcomposer.org) and [phpunit](https://phpunit.de).  They can be installed following the commands below.
 
 ```sh
 # install composer
@@ -25,10 +27,8 @@ Using the php function `gzfile` I was be able to read each message line by line 
 ```sh
 php run.php
 ```
-<img src="screenshot.png">
 
 ### Run the tests
 ```sh
 phpunit --bootstrap vendor/autoload.php tests/ParseMessageTest
 ```
-<img src="screenshot-tests.png">

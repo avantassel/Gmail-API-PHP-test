@@ -11,20 +11,13 @@ class ParseMessageTest extends TestCase
 
     public function testSubjectCount()
     {
-        // Get Subjects
         $subjects = $this->message->GetSubjects();
-
-        // Assert
         $this->assertEquals(3, count($subjects));
     }
 
     public function testMessageCount()
     {
         $messages = $this->message->ParseGzipMessages(__DIR__ . '/../data/sampleEmails.tar.gz');
-
-        // Assert
         $this->assertEquals(12, count($messages));
     }
-
-    // ...
 }
